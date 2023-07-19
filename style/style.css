@@ -311,7 +311,6 @@ h1, h2, h3, h4, h5, h6{
     justify-content: center;
     align-items: center;
     gap: 10px;
-    padding: 2px;
     border: 2px solid #fff;
     border-radius: 50px;
     -webkit-border-radius: 50px;
@@ -330,6 +329,15 @@ h1, h2, h3, h4, h5, h6{
 .ftr_item h3{
     font-size: 1.25rem;
     font-weight: 600;
+    padding-right: 9px;
+    transition: all linear 0.4s;
+    -webkit-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+}
+.ftr_item:hover h3{
+    color: var(--color_secendary);
 }
 /*======================== 
  feature section ends here
