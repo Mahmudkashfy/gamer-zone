@@ -1,0 +1,219 @@
+:root{
+    --colot_black: #0B0223;
+    --colot_praimary: #8758F1;
+    --color_secendary: #F948B2;
+    --text-Primary: #3C354F;
+}
+/*======================= 
+ Common Style Starts here 
+=========================*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+    border: none;
+    font-family: 'Work Sans', sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+   line-height: 0.8;
+}
+.btn_praimary{
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #FFF;
+    background-color: var(--color_secendary);
+    padding: 20px 40px;
+    text-transform: uppercase;
+    border-radius: 48px;
+    -webkit-border-radius: 48px;
+    -moz-border-radius: 48px;
+    -ms-border-radius: 48px;
+    -o-border-radius: 48px; 
+}
+.container{
+   width: 1140px;
+   margin: 0 auto;
+}
+/*===================== 
+ Common Style ends here 
+=======================*/
+
+/*========================= 
+ header section starts here 
+===========================*/
+#header{
+    padding: 35px 0;
+}
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_logo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.nav_logo img{
+    width: 100%;
+    height: 100%;
+}
+.nav_logo h2{
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: var(--colot_black);
+}
+.nav_logo h2 span{
+    color: var(--color_secendary);
+}
+.nav_container{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.nav_item{
+    color: var(--text-Primary);
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.nav_btn{
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+/*========================= 
+ header section starts here 
+===========================*/
+/*========================= 
+ banner section starts here 
+===========================*/
+#banner{
+    padding-top: 75px;
+}
+#banner > .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner_contant{
+    width: 50%;
+}
+.banner_contant h2{
+    color: var(--colot_black);
+    font-size: 3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.banner_contant h1{
+    color: var(--colot_praimary);
+    font-size: 6.5rem;
+    font-weight: 800;
+    text-transform: uppercase; 
+    margin-left: -10px;
+    padding: 15px 0;
+}
+.banner_contant p{
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: var(--text-Primary);
+    padding-bottom: 10px;
+}
+.btn_container button{
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #fff;
+    padding: 20px 40px;
+    margin: 40px 10px 0 0;
+    text-transform: uppercase;
+    border-radius: 48px;
+    -webkit-border-radius: 48px;
+    -moz-border-radius: 48px;
+    -ms-border-radius: 48px;
+    -o-border-radius: 48px;
+}
+.btn_container .btn_1{
+    background-color: var(--color_secendary);
+}
+.btn_container .btn_2{
+    background-color: #4EC5F7;
+}
+.banner_images{
+    width: 50%;
+}
+.banner_images img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/*========================= 
+ banner section ends here 
+===========================*/
+
+/*========================= 
+ GAMER section starts here 
+===========================*/
+#gamer{
+    padding-top: 55px;
+}
+#gamer > .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.gamer_image{
+    width: 60%;
+}
+.gamer_image img{
+    width: 100%;
+    height: 1100%;
+    object-fit: cover;
+}
+.gamer_contant{
+    width: 40%;
+    text-align: right;
+}
+.gamer_title{
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--color_secendary);
+}
+.gamer_discription{
+    padding: 20PX 0 32PX;
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: var(--text-Primary);
+}
+.gamer_buttom_title{
+    padding-top: 25px;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.gamer_buttom_title small{
+    font-size: 1rem;
+}
+/*======================= 
+ GAMER section ends here
+=========================*/
+
+/*======================== 
+ video section starts here
+==========================*/
+#video{
+    padding-top: 100px;
+}
+/*====================== 
+ video section ends here
+========================*/
+
+@media screen and (max-width: 575.99px) {
+    
+}
