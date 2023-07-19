@@ -34,7 +34,7 @@ h1, h2, h3, h4, h5, h6{
     -o-border-radius: 48px; 
 }
 .container{
-   width: 1140px;
+   max-width: 1140px;
    margin: 0 auto;
 }
 /*===================== 
@@ -208,12 +208,138 @@ h1, h2, h3, h4, h5, h6{
  video section starts here
 ==========================*/
 #video{
-    padding-top: 100px;
+    padding-top: 120px;
+}
+#video > .container{
+    text-align: center;
+}
+.sec_video_title{
+    color: var(--colot_black);
+    font-size: 3rem;
+    font-weight: 700;
+}
+.sec_video_title span{
+    color: var(--color_secendary);
+}
+.sec_video_discription{
+    color: var(--text-Primary);
+    font-size: 1.1rem;
+    padding: 10px 0 45px;
+}
+.video_wrapper{
+    display: flex;
+    gap: 20px;
+}
+.video_container{
+    text-align: left;
+}
+.video_container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    transition: all linear 0.4s;
+    -webkit-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+}
+.video_container img:hover{
+    background-color: var(--color_secendary);
+    border: 5px solid var(--color_secendary);
+}
+.video_discription{
+    color: var(--text-Primary);
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-top: 10px;
 }
 /*====================== 
  video section ends here
 ========================*/
+#play_game{
+    padding-top: 120px;
+}
+.play_game_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.play_game_contant{
+    width: 50%;
+}
+.play_game_imag{
+    width: 50%;
+    position: relative;
+}
+.play_game_imag img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.absolute{
+    position: absolute;
+    bottom: -45px;
+    left: -90px;
+}
+.absolute img{
+    width: 60%;
+    object-fit: cover;
+}
+/*============================ 
+ play_game section starts here
+==============================*/
+
+/*============================ 
+ feature section starts here
+==============================*/
+#feature{
+    padding: 120px 0;
+}
+.ftr_wrapper{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.ftr_item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 2px;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    transition: all linear 0.4s;
+    -webkit-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+}
+.ftr_item:hover{
+    border: 2px solid var(--color_secendary);
+}
+.ftr_item h3{
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+/*======================== 
+ feature section ends here
+==========================*/
+
+/*========================== 
+ play_game section ends here
+============================*/
 
 @media screen and (max-width: 575.99px) {
     
 }
+
