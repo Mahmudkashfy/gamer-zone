@@ -335,11 +335,93 @@ h1, h2, h3, h4, h5, h6{
  feature section ends here
 ==========================*/
 
-/*========================== 
- play_game section ends here
-============================*/
-
-@media screen and (max-width: 575.99px) {
-    
+/*======================== 
+ footer section starts here
+==========================*/
+#footer{
+    padding: 120px 0;
+    background-color: #0B0223;
+    text-align: center;
 }
+.footer_logo{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.footer_logo img{
+    object-fit: fill;
+
+}
+.footer_logo h2{
+    color: #fff;
+}
+.footer_logo span{
+    color: var(--color_secendary);
+}
+.footer_link{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 35px 0;
+}
+.footer_link a{
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #fff;
+    transition: all linear 0.4s;
+    -webkit-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+}
+.footer_link a:hover{
+    color: var(--colot_praimary);    
+}
+.footer_social_icon{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.footer_social_icon i{
+    color: #fff;
+    font-size: 1.5rem;
+    transition: all linear 0.4s;
+    -webkit-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+}
+.footer_social_icon i:hover{
+    color: var(--color_secendary);
+}
+.footer_link_secendary{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 35px 0;
+}
+.footer_link_secendary a{
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 1rem;
+    font-weight: 500;
+    transition: all linear 0.4S;
+    -webkit-transition: all linear 0.4S;
+    -moz-transition: all linear 0.4S;
+    -ms-transition: all linear 0.4S;
+    -o-transition: all linear 0.4S;
+}
+.footer_link_secendary a:hover{
+    color: #fff;
+}
+.copy_right_c{
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 1rem;
+    font-weight: 500;
+}
+/*======================== 
+ feature section ends here
+==========================*/
+
+
 
